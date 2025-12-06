@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: jdownloader
+category: downloading
+name: JDownloader 2
+version: "1.0.0"
+tagline: Gerenciador de downloads
+description: >-
+  Baixe arquivos do Mega, Google Drive e Youtube facilmente.
+developer: JLesage
+website: https://jdownloader.org/
+dependencies: []
+repo: https://github.com/jlesage/docker-jdownloader-2
+support: https://jdownloader.org/knowledge/index
+port: 5800
+gallery:
+  - https://i.imgur.com/example.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
