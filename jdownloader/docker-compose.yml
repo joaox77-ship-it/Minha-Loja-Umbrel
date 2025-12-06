@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  app_proxy:
+    environment:
+      APP_HOST: jdownloader_server_1
+      APP_PORT: 5800
+
+  server:
+    image: jlesage/jdownloader-2
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/downloads:/output
